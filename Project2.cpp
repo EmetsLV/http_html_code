@@ -121,8 +121,8 @@ char* OpenURL(const char* url){
 void main() {
     setlocale(LC_ALL, "rus"); cout.imbue(locale("rus_rus.1251"));//выводит русские буквы
     char ddomen[50];
-    char prishlo[20] = "ebalka";   int kk = strlen(prishlo);
-    char tt[13] = "https://"; char tt2[7] = ".info/";
+    char prishlo[20] = "tadviser";   int kk = strlen(prishlo);
+    char tt[13] = "https://"; char tt2[7] = ".ru/";
     int k = strlen(tt);  int k2 = strlen(tt2);
     for (int i = 0; i < k; i++) {
         ddomen[i] = tt[i];
